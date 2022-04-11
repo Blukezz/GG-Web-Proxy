@@ -10,8 +10,7 @@ const proxy = new Corrosion({
     forceHttps: true,
     requestMiddleware: [
         Corrosion.middleware.blacklist([
-            "accounts.google.com",
-        ], "Page is blocked"),
+       ], "Page is blocked"),
     ]
 })
 
